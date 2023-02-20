@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Propiedades en CSS - Filtros</title>
+	<style>
+		.contenedor{
+			width: 500px;
+			margin: auto;
+		}
+		.contenedor img{
+			width: 100%;
+		}
+		#foto{
+			filter: blur(2px);
+		}
+		#firefox{
+			/*box-shadow: #848181 2px 2px ;*/
+			filter: drop-shadow(15px 5px 5px #1813F0);
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<img src="IMG/sunset.jpg" alt="">
+		<img id="foto" src="IMG/sunset.jpg" alt="">
+	</div>
+	<img src="IMG/Firefox_logo,_2017.svg.png" alt="" id="firefox" width="350px">
+</body>
+</html>
+<!--
+	blur(2px); 0-10
+	grayscale(.8); 0-1
+	sepia(1); 0-1
+	brightness(10); 0-10
+	contrast(5); 0-10
+	hue-rotate(90deg); 1deg -360deg
+	invert(0.8); 0-1
+	saturate(7); 0-10
+	opacity(.5); 0-1
+-->

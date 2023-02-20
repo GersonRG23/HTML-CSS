@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Propiedades en CSS - Transformaciones 2D</title>
+	<style>
+		.contenedor{
+			width: 300px;
+			margin: auto;
+			margin-top: 50px;
+		}
+		.contenedor img{
+			width: 100%;
+			box-shadow: #808080 5px 5px 5px;
+		}
+		.contenedor img:hover{
+			transform: scale(1.5,1.5);
+			transform: rotate(45deg);
+			transform: skew(-45deg);
+			transform: translate(10px);
+
+			transform: scale3d(1.0, 1.0, 2.5);
+			transform: rotate3d(5, 5, 5, 90deg);
+			transform: translate3d(10px, 0px, 10px);
+			transform: perspective(1);
+			transition: 4s ;
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<img src="IMG/sunset.jpg" alt="">
+	</div>
+</body>
+</html>

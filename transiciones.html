@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Propiedades en CSS - Transiciones</title>
+	<style>
+		.contenedor{
+			width: 300px;
+			height: 450px;
+			border: solid 1px;
+			margin: auto;
+			background-image: url(IMG/interestellar.jpg);
+			background-size: cover;	
+		}
+		.vermas{
+			background: #000000;
+			height: 0px;
+			overflow: hidden;
+			color: #ffffff;
+			padding: 10px;
+			margin-top: 258px;
+			opacity: 0;
+			transition: all 1s;
+
+		}
+		.vermas p{
+			background: red;
+			text-align: center;
+			cursor: pointer;
+		}
+		.contenedor:hover .vermas{
+			opacity: 1;
+			height: 172px;
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="vermas">
+			Ambientada en un futuro distópico donde la humanidad está luchando por sobrevivir, cuenta la historia de un grupo de astronautas que viajan a través de un agujero de gusano cerca de Saturno en busca de un nuevo hogar para la humanidad.
+			<p>Ver más</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,389 @@
+/*GENERAL*/
+*{
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+h1{
+	font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2{
+	font-size: 1.625rem;
+	margin: 1rem auto;
+	max-width: 640px;
+	font-weight: 400;
+
+	display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h3{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section{
+	background: #000000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 8px solid #222;
+}
+
+section div.contenido{
+	width: 1100px;
+	margin: auto;
+}
+
+.restaurar{
+	clear: both;
+}
+/*GENERAL*/
+
+/* FONDO */
+html, body, .cover{
+	height: 100%;
+}
+
+.cover{
+	background: url(../IMG/fondo.jpg);
+	background-size: 1349px 693px ;
+}
+/*FONDO*/
+
+/*CABECERA*/
+section.cabecera{
+	background: rgba(0,0,0,.4);
+	background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+nav{
+	margin: 0 3.5rem;
+	padding-top: 26px;
+}
+
+div.logo{
+	float: left;
+	
+}
+div.login{
+	float: right;
+}
+
+div.login:hover{
+	cursor: pointer;
+}
+
+div.login span{
+	padding: 7px 17px;
+	background: #e50914;
+	color: #ffffff;
+	border-radius: 3px;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.presentacion{
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.presentacion input{
+	height: 60px;
+    min-width: 450px;
+    padding: 0px 10px 0px;
+    width: 58%;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #5D5D5D;
+    font: inherit;
+    margin: 0;
+}
+
+.presentacion span{
+	background: #e50914;
+    padding: 7px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    margin-left: -3px;
+    border: solid #e50914;
+    font-size: x-large;
+}
+
+.presentacion span:hover, .contPreguntas span:hover{
+	cursor: pointer;
+	background: red;
+}
+/*CABECERA*/
+
+/*TV*/
+
+.contenido{
+	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
+
+.flotanteTexto{
+	width: 59%;
+}
+.flotanteImagen{
+	width: 39%;
+}
+
+.contenido img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	position: relative;
+	z-index: 2;
+}
+
+.contenido h1{
+	font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 0.4em;
+}
+
+.contenido h2{
+	font-size: 1.625rem;
+    font-weight: 400;
+    margin: 0.75em 0 0.25em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.tv video{
+	position: absolute;
+    transform: translate(-373px, 67px);
+    width: 313px;
+    z-index: 1;
+}
+/*TV*/
+
+/*DESCARGA*/
+
+.tarjetaInt, .portada{
+	display: flex;
+	align-items: center;
+}
+
+.tarjetaInt{
+	padding: 0.5em 0.75em;
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    margin: 0 auto;
+    min-width: 15em;
+    width: 60%;
+    position: relative;
+    z-index: 2;
+}
+
+.tarjeta {
+    position: relative;
+    transform: translate(-65px, -41px);
+}
+
+.textoPortada{
+
+}
+/*DESCARGA*/
+
+/*DISFRUTA*/
+
+.disfruta video{
+	position: absolute;
+    transform: translate(-349px, 34px);
+    width: 264px;
+    z-index: 1;
+}
+/*DISFRUTA*/
+
+/*PREGUNTAS*/
+
+.preguntas{
+	font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.preguntas h2{
+	font-size: 3rem;
+    font-weight: 900;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.45em;
+}
+
+.contPreguntas{
+	width: 1030px;
+	margin: auto;
+	text-align: center;
+}
+
+.contPreguntas div{
+	text-align: left;
+	margin: 0 0 0.55rem 0;
+	font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.pregunta{
+	background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 8px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.respuesta{
+	background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 400px;
+}
+
+.pregunta p, .respuesta p{
+	padding: 12px;
+    padding-left: 16px;
+}
+
+.respuesta hr{
+	border: 1px solid #000000;
+
+}
+.pregunta:hover .respuesta{
+	max-height: 1000px;
+}
+
+.respuesta{
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 1s;
+}
+
+.contPreguntas input{
+    padding: 0px 10px 0px;
+    appearance: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    font: inherit;
+    margin: 0;
+    width: 39%;
+    height: 52px;
+    border-width: 1px;
+    border-style: solid;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    line-height: 1.5rem;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1rem;
+    border-start-start-radius: 0.25rem;
+    border-end-start-radius: 0.25rem;
+}
+
+.contPreguntas h3{
+	margin-top: 50px;
+}
+
+.contPreguntas span{
+	background: #e50914;
+    padding: 7px;
+    padding-bottom: 11px;
+    font-weight: 500;
+    margin-left: -7px;
+    border: solid #e50914;
+    font-size: x-large;
+    border-start-end-radius: 0.25rem;
+    border-end-end-radius: 0.25rem;
+    padding-top: 4px;
+}
+/*PREGUNTAS*/
+
+/*PIE*/
+
+.pie{
+	border-bottom: none;
+	padding: 3.5rem 10rem;
+}
+
+.pie  p ,a{
+	color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 400;
+   	padding: 7px;
+}
+
+.pie .PieContenido div{
+	font-size: 0.875rem;
+	padding-top: 2rem;
+    padding-right: 10rem;
+}
+
+.PieContenido{
+	width: 1100px;
+	margin: auto;
+	display: flex;
+}
+
+.pie .Autor *{
+	color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 400;
+   	
+}
+/*PIE*/

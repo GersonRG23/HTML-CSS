@@ -1,0 +1,157 @@
+/*
+#boton{
+	background: #1E7CE6;
+	color: #ffffff;
+}
+
+.programacion{
+	color: red; 
+}
+
+.baseDeDatos{
+	color: blue;
+}
+
+.contenedor{
+	background: yellow;
+	text-align: center;
+}
+.web{
+	color: green;
+}
+
+	DESDE AQUI COMIENZA CSS
+<!-- Hojas de Estilo -->
+
+section{
+	background: #000000;
+	color: #ffffff;
+}
+p, li{
+	background: #000000;
+	color: white;
+}
+
+header p{
+	background: yellow;
+	color: blueviolet;
+}
+section > p{
+	background: green;
+}
+h2 + li{
+	background: #188F37;
+}
+
+#principal{
+	border: solid 2px #261A1A;
+}
+.arial{
+	font-family: arial;
+}
+.rojo{
+	background: red;
+	color: white;
+}
+
+*{
+	border: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+#texto{
+	font-family: arial black;
+	text-align: center;
+	text-align-last: left;
+	text-indent: 10px;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+<!-- Propiedades CSS - Texto -->
+.verdana{
+	font-family: verdana;
+	font-weight: 900;
+}
+p{
+	//font: bold 17px Thahoma;
+	font-size: 16px;
+	font-style: italic;
+}
+#texto img{
+	vertical-align: text-top;
+}
+#texto a{
+	text-decoration: none;
+}
+
+<!-- Propiedades CSS - Colores -->
+h1{
+	color: #D6F334;
+	color: rgb(100, 200, 300);
+	color: hsl(0, 100%, 50%);
+}
+hexadecimal
+rgb(rojo,verde,azul)
+rgba(rojo,verde,azul,alfa)
+hsl(matiz,saturación,luminosidad)
+hsla(matiz,saturación,luminosidad,alfa)
+nombre de color.
+
+
+<!-- Propiedades CSS - Tamaños -->
+
+
+section{
+	background: #000000;
+}
+
+section div{
+	width: 500px;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	margin: auto;
+	margin-left: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-top: ;
+	padding: 10px 10px 10px 10px;
+	padding-left: ;
+	padding-right: ;
+	padding-bottom: ;
+	padding-top: ;
+}	
+#uno{
+	background: #0AA8D5;
+}
+#dos{
+	background: #F1A615;
+}
+
+<!-- Propiedades CSS - Fondos -->
+
+
+#contenedor{
+	border: solid 2px;
+	width: 600px;
+	height: 200px;
+	margin: 200px auto;
+	padding: 10px;
+	color: #ffffff;
+	background-color: #38C355;
+	background-image: url(../IMG/universo.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 10px 10px;
+	
+	background-size: cover;
+	background-attachment: fixed;
+	background: #D03333 url(../IMG/universo.jpg) no-repeat fixed;
+}
+#contenedor2{
+	height: 1200px;
+}
+*/
+
+

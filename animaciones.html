@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Propiedades en CSS - Animaciones</title>
+	<style>
+		.pelota{
+			width: 100px;
+			height: 100px;
+			background: red;
+			border-radius: 100px;
+			animation: recorrido 2s infinite;
+		}
+		@keyframes recorrido{
+			25%{
+				transform: translate(1200px, 0px);
+			}
+			50%{
+				transform: translate(1200px, 600px);
+			}
+			75%{
+				transform: translate(0px, 600px);
+			}
+			100%{
+				transform: translate(0px, 0px);
+			}
+		}
+		.corazon{
+				width: 150px;
+				margin: auto;
+				margin-top: 150px;
+				animation: escala 2s infinite;
+		}
+		.corazon img{
+			width: 100%;
+		}
+		@keyframes escala{
+			0%{
+				transform: scale(1.0);
+			}
+			50%{
+				transform: scale(1.5);
+			}
+			100%{
+				transform: scale(1.0);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="pelota"></div>
+	<div class="corazon">
+		<img src="IMG/corazao.png" alt="">
+	</div>
+</body>
+</html>
